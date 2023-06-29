@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 352px;  
+  min-width: 343px;
+  height: 375px;
+  margin: 16px;
+  padding: 48px 24px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.card__img {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 32px;
+  fill: #7C7C7C;
+  transition: fill 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 30px 0px rgba(67, 116, 229, 0.40);
+}
+
+.card:hover .card__img path.hoverEffect {
+  fill: #4374E5;
+}
+
+.card__title {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.card__text {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  line-height: 24px;
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .card {
+    margin: 12px;
+  }
+}

@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  min-width: 375px;
+  max-width: 1400px;
+  height: 100%;
+  z-index: 5;
+}
