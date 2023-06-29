@@ -1,11 +1,12 @@
 .main {
   display: flex;
+  flex-grow: 1;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  min-width: 375px;
   max-width: 1400px;
+  margin: 0 auto;
   height: 100%;
-  z-index: 5;
 }
